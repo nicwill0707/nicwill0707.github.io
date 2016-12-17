@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>N WIlliamson Web portfolio</title>
+
+    <meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+
+    <style>
+        /* CSS style rules go here! */
+        
+        body {
+            background: #f5f5f5;
+            font-family: Imprima, sans-serif;
+        }
+        
+        header {
+            width: 100%;
+            min-width: 800px;
+            margin: 0 auto;
+            background: steelblue;
+            padding: 15px 0 20px;
+        }
+        
+        h1 {
+            font-family: Dosis, sans-serif;
+            color: #375671;
+            width: 80%;
+            margin: 0 auto;
+            color: whitesmoke;
+        }
+        
+        h2 {
+            font-family: Dosis, sans-serif;
+            color: #375671;
+            width: 80%;
+            margin: 0 auto;
+            color: whitesmoke;
+        }
+        
+        h3 {
+            font-family: Dosis, sans-serif;
+            color: #003d71
+        }
+        
+        p {
+            font-size: .9em;
+            color: #375671;
+        }
+        
+        ul {
+            list-style-type: none;
+            font-size: .9em;
+            color: #375671;
+            line-height: 1.6em;
+        }
+        
+        a,
+        a:visited {
+            color: #003d71;
+        }
+        
+        .project {
+            width: 80%;
+            min-width: 800px;
+            height: 100%;
+            margin: 35px auto;
+        }
+        
+        .project:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .project-image {
+            width: 388px;
+            height: 240px;
+            background: white;
+            float: left;
+            margin-right: 20px;
+            border: 2px solid #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>MAP672: Programming for Web Mapping</h1>
+        <h2>Web Cartography at the University of Kentucky</h2>
+
+    </header>
+
+
+    <section>
+
+        <!--    //begin project 1    -->
+
+        <a href="images/UKTreeMap.jpg"><img src="images/UKTreeMap.jpg" alt="University of Kentucky tree map image" class= "project-image" /></a>
+
+        <section class="project">
+            <h3>UK Tree Map</h3>
+            <p>This map allows one to explore the rich and diverse tree canopy at the University of Kentucky. There are over 200 species of trees on campus, find your favorite! After finding a favorite tree, consider becoming a tree ambassador through the "Adopt a Tree" program. This map also highlights an on-going project led by UK Forest Ecology students to estimate the ecosystem services that trees provide to individual buildings on campus.</p>
+            <p>This map was generated through a collaboration with the UK Physical Plant Divison, who contracted a company to do the initial tree inventory in June 2015. Much of the rest of the data was gathered by UK students, using the <a target='_blank' href="http://www.treebenefits.com/calculator/" />National Tree Benefits Calculator</a> and the <a target='_blank' href="https://design.itreetools.org/" />i-Tree Design application</a>
+            </p>
+            <ul>
+                <li>See the map: <a target='_blank' href="https://npwi222.carto.com/viz/14c4a7aa-a083-4ece-b3cd-94aa779822c2/embed_map" />University of Kentucky Interactive Tree Map</a>
+                </li>
+
+                <li>Data source: <a target='_blank' href="http://www.uky.edu/facilities/CPPD" />University of Kentucky Physical Plant Division</a>
+                </li>
+            </ul>
+        </section>
+
+        <!--    //end project 1-->
+
+        <!--    //begin project 2-->
+
+        <a href="images/US-Energy.jpg"><img src="images/US-Energy.jpg" alt="U.S. Energy images" class= "project-image" /></a>
+
+        <section class="project">
+            <h3>U.S. Energy Production</h3>
+            <p>Energy is extremely important, and is the reason you are able to read these words now! This map provides users with the location and capacity of three energy production methods: coal, natural gas, and nuclear power in the United States.</p>
+            <p>This map was generated for a weekly assignment in developing our Leaflet programming skills for MAP 672. This map reflects the my continued development of skills including the use of graduated circle markers and complex popups which utilize an external javascript data file.</p>
+            <ul>
+                <li>See the map: <a target='_blank' href="#" />U.S. Energy</a>
+                </li>
+
+                <li>Data source: <a target='_blank' href="http://newmapsplus.uky.edu/" />MAP 672 of the New Maps Plus course (University of Kentucky, Geography Department)</a>
+                </li>
+            </ul>
+        </section>
+        <!--    //end project 2-->
+
+        <!--    //begin project 3-->
+
+        <a href="images/Jetpack-rediguana.jpg"><img src="images/Jetpack-rediguana.jpg" alt="jetpack and red iguana images" class= "project-image" /></a>
+
+        <section class="project">
+            <h3>Delicious eats from above!</h3>
+            <p>This map is a highly practical if your main mission is to find some delicious Mexican food while you are jetpacking around Salt Lake City, Utah. Whether or not this is your mode or travel (or idea of a good time), this map indicates your distance from a fine eatery in the city.</p>
+            <p>This map was generated for a weekly assignment in developing our Leaflet programming skills for MAP 672. The relative simplicity of the map hides the fact that it was immensely challenging to build the code which makes this map work. In other words, this map represents a breakthrough in my mapping capabilities!</p>
+            <ul>
+                <li>See the map: <a target='_blank' href="#" />The Red Iguana (as the jetpack flies)!</a>
+                </li>
+
+                <li>Data source: <a target='_blank' href="http://newmapsplus.uky.edu/" />MAP 672 of the New Maps Plus course (University of Kentucky, Geography Department)</a>
+                </li>
+            </ul>
+        </section>
+        <!--    //end project 3-->
+
+    </section>
+
+</body>
+
+</html>
